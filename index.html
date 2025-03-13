@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="calculator">
-        <div class="display">12*10</div>
+        <div class="display"></div>
 
         <div class="buttons">
             <div class="digits">
@@ -27,16 +27,16 @@
             </div>
 
             <div class="operators">
-                <button id="btnSum">+</button>
-                <button id="btnSubtract">-</button>
-                <button id="btnMultiply">*</button>
-                <button id="btnDivide">/</button>
+                <button class="operator" id="btnSum">+</button>
+                <button class="operator" id="btnSubtract">-</button>
+                <button class="operator" id="btnMultiply">*</button>
+                <button class="operator"id="btnDivide">/</button>
                 
             </div>
 
             <div class="manipulators">
-                <button id="btnEquals">=</button>
-                <button id="btnAns">Ans</button>
+                <button class="manipulator" id="btnEquals">=</button>
+                <button class="manipulator" id="btnAc">Ac</button>
             </div>
         </div>
         

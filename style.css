@@ -17,6 +17,32 @@ button{
     font-size: 20px;
 }
 
+.digit{
+    background-color: #007074;
+}
+
+.operator{
+    background-color: #F38C79;
+}
+
+.manipulator{
+    background-color: #FFC1B4;
+}
+
+#digit0{
+    width: 105px;
+}
+
+#btnEquals, #btnAc{
+    height: 105px;
+}
+
+.calculator{
+    
+    border: 5px solid black;
+    padding: 5px;
+}
+
 .buttons{
     display: flex;
     flex-direction: row;
@@ -36,9 +62,13 @@ button{
 }
 
 .display{
-    background-color: honeydew;
+    display: flex;
+    background-color: #A0A0A0;
     margin-bottom: 10px;
-    padding: 15px;
+    height: 40px;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 5px;
 }
 
 .manipulators{
@@ -46,3 +76,4 @@ button{
     flex-direction: column;
     gap: 5px;
 }
+
